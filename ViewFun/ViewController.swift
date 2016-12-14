@@ -13,8 +13,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // make an instance of UIView class
+        // creats a square 100x100 at coordinate (20,20)
         let blueView = UIView(frame: CGRect(x: 20.0, y: 20.0, width: 100.0, height: 100.0))
+        // set square's color
         blueView.backgroundColor = UIColor.blue
+        // add square to screen view
         view.addSubview(blueView)
         
         let redView = UIView(frame: CGRect(x: 150.0, y: 150.0, width: 40.0, height: 40.0))
